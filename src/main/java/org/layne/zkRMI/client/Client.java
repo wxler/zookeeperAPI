@@ -10,7 +10,8 @@ public class Client {
             HelloService helloService = consumer.lookup();
             String result = helloService.sayHello("layne");
             System.out.println("client:"+result);
-            Thread.sleep(3000);
+            Thread.sleep(3000);//
+
         }
     }
 }
